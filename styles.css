@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+    font-family: "outfiit", sans-serif;
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    margin-top: 50px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 280px;
+    max-height: 500px;
+    padding: 14px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+.container img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: "outfiit", sans-serif;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+
+}
+
+p {
+    font-family: "outfiit", sans-serif;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    margin: 1rem;
+}
+
+.attribution a {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 45%);
+}
